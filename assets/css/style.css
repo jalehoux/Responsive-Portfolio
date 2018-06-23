@@ -219,22 +219,29 @@ label {
 
 @media screen and (max-width: 800px) {
     .content {
-      width: 100%; 
+      width: 95%; 
       display:block;
       overflow:auto;
       margin-top:50px;
   }
 
+    .all {
+        padding:0px;
+        margin: 0px;
+    }
+
   .namelink {
     width: 100%;
     position: fixed;
+    top: 0px;
     display: inline-block;
+    height:auto;
   }
 
   .name {
     width:100%;
     display:inline-block;
-
+    text-align: center;
   }
 
   .links {
@@ -244,6 +251,7 @@ label {
     text-align:center;
     background-color: white;
     clear: both;
+    font-size: 25px;
   }
 
   .footer {
