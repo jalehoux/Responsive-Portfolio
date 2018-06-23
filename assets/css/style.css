@@ -1,0 +1,250 @@
+html, body {
+    height: 100%;
+    margin:0;
+    padding:0;
+    background-image: url('../../assets/images/qbkls.png');
+}
+
+.all {
+    min-height: 100%;
+    height: 100%;
+    position: relative;
+    min-width: 100%;
+}
+
+.header {
+    width:100%;
+    display:inline-block;
+    background-color: white;
+}
+
+.namelink {
+    width:80%;
+    margin:auto;
+    position: relative;
+}
+
+.name {
+    float:left;
+    background-color: teal;
+    padding: 10px;
+    color:white;
+    font-style: bold;
+    font-size: 32px;
+}
+
+.links {
+    position: absolute;
+    margin-right: 10px;
+    margin-top: 20px;
+    right:0;
+    font-size: 20px;
+}
+
+.links a:first-child, .links a:nth-child(2)  {
+    border-right: 1px solid grey;
+    padding-right: 7px;
+}
+
+.links a {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+.links a:hover {
+    color: teal;
+}
+
+
+.container {
+    width: 100%;
+    background-image: url('../../assets/images/qbkls.png');
+    height:450px;
+    padding-top:30px;
+    padding-bottom: 80px;
+}
+
+.content{
+    padding: 10px 10px 10px 10px;
+    width:80%;
+    background-color:white;
+    margin:auto;
+    height:410px;
+    overflow: auto;
+}
+
+.title {
+    margin: 10px;
+}
+
+.headtitle {
+    font-size: 32px;
+    color:teal;
+    font-weight: bold;
+}
+
+hr {
+    margin: 15px;
+}
+
+#headshot {
+    float: left;
+    height: 190px;
+    width: 250px;
+    margin: 10px;
+}
+
+#diving {
+    float: right;
+    height: 220px;
+    width: 160px;
+    margin: 10px;
+    overflow:auto;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size:20px;
+    color: #777777;
+}
+
+#porttext {
+    text-align:center;
+    margin-bottom: 2%;
+}
+
+.portlink {
+    width:150px;
+    height:150px;
+}
+
+.image {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    float: left;
+    left:5%;
+    background-size: cover;
+    position: relative;
+}
+
+.image:hover {
+    box-shadow:3px 4px 2px teal;
+    transition-duration: 0.4s;
+    opacity: .7;
+    cursor: pointer;
+}
+
+#hangman {
+    background-image: url('../../assets/images/placeholder1.jpg');
+}
+
+
+#rpg {
+    background-image: url('../../assets/images/placeholder2.jpg');
+}
+
+#trvia {
+    background-image: url('../../assets/images/placeholder3.jpg');
+}
+
+#rutgers {
+    background-image: url('../../assets/images/placeholder4.jpg');
+}
+
+#rps {
+    background-image: url('../../assets/images/placeholder5.jpg');
+}
+
+.textover {
+    background-color: teal;
+    color:white;
+    text-align:center;
+    position: absolute;
+    width:100%;
+    bottom:5%;
+    padding:5px 0px 5px 0px;
+    opacity: .75;
+}
+
+form {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size:16px;
+    color: #777777;
+    margin: 12px 50px 12px 50px;;
+}
+
+input, label {
+    display: block;
+}
+
+#firstname, #email, #message {
+    width:100%;
+}
+
+#submit {
+    background-color: teal; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#submit:hover {
+    color:teal;
+    background-color: lightgrey;
+}
+
+label {
+    margin-bottom: 4px;
+}
+
+.footer {
+    position: relative;
+    clear: both;
+    width: 100%;
+    background-color: #666666;
+    border-top: 10px solid teal;
+    height: 60px;
+    color: white;
+    text-align: center;
+    margin-top: -70px;
+}
+
+@media screen and (max-width: 800px) {
+    .content {
+      width: 100%; 
+      display:block;
+      overflow:auto;
+      margin-top:50px;
+  }
+
+  .namelink {
+    width: 100%;
+    position: fixed;
+    display: inline-block;
+  }
+
+  .name {
+    width:100%;
+    display:inline-block;
+
+
+  }
+
+  .links {
+    width:100%;
+    display:block;
+    position: relative;
+    text-align:center;
+    background-color: white;
+    clear: both;
+  }
+}
