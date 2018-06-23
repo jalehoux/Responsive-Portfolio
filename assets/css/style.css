@@ -6,9 +6,7 @@ html, body {
 }
 
 .all {
-    min-height: 100%;
     height: 100%;
-    position: relative;
     min-width: 100%;
 }
 
@@ -59,17 +57,16 @@ html, body {
 .container {
     width: 100%;
     background-image: url('../../assets/images/qbkls.png');
-    height:450px;
+    min-height:90%;
     padding-top:30px;
-    padding-bottom: 80px;
 }
 
 .content{
     padding: 10px 10px 10px 10px;
-    width:80%;
+    width:960px;
     background-color:white;
     margin:auto;
-    height:410px;
+    height:auto;
     overflow: auto;
 }
 
@@ -111,6 +108,11 @@ p {
 #porttext {
     text-align:center;
     margin-bottom: 2%;
+}
+
+.allimages {
+    margin: auto;
+    text-align: center;
 }
 
 .portlink {
@@ -207,15 +209,12 @@ label {
 }
 
 .footer {
-    position: relative;
-    clear: both;
     width: 100%;
     background-color: #666666;
     border-top: 10px solid teal;
     height: 60px;
     color: white;
     text-align: center;
-    margin-top: -70px;
 }
 
 @media screen and (max-width: 800px) {
@@ -236,7 +235,6 @@ label {
     width:100%;
     display:inline-block;
 
-
   }
 
   .links {
@@ -246,5 +244,9 @@ label {
     text-align:center;
     background-color: white;
     clear: both;
+  }
+
+  .footer {
+      display: none;
   }
 }
